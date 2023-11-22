@@ -24,7 +24,7 @@ app.use('/adopcion', new RouterAdopcion().start())
 app.use('/animal', new RouterAnimal().start())
 
 
-const port = process.env.PORT || "https://bepawsome-e858795261d3.herokuapp.com";
+const port = process.env.PORT || 3000;
 
 app.listen(port, () => {
     console.log(`Servidor escuchando en https://bepawsome-e858795261d3.herokuapp.com:${port}`);
