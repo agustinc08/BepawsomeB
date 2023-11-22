@@ -13,7 +13,7 @@ async function pushEmail(mailDestinatario,passToken) {
       },
     });
 
-    const forgetURL = 'http://localhost:3000/signIn/cambiarContrasenia?token=' + passToken;
+    const forgetURL = 'https://bepawsome-e858795261d3.herokuapp.com/signIn/cambiarContrasenia?token=' + passToken;
 
     const mailOptions = {
       from: process.env.MAIL,
